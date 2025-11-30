@@ -19,14 +19,16 @@ import {
   starbucks,
   YashLogo,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
   NodeJS,
-  Wordpress,
-  PHP,
+  DauchiLogo,
+  MobileLogo,
+  MobileWeb,
+   LendWeb,
+  Dauchiweb
 } from "../assets";
 
 export const navLinks = [
@@ -50,15 +52,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Wordpress Developer",
-    icon: mobile,
-  },
-  {
-    title: "Shopify Developer",
+    title: "Node.js Backend Developer",
     icon: backend,
   },
   {
-    title: "PHP Developer",
+    title: "Ruby on Rails Developer",
+    icon: mobile,
+  },
+  {
+    title: "Full-stack MERN Developer",
     icon: creator,
   },
 ];
@@ -109,13 +111,13 @@ const technologies = [
     icon: docker,
   },
   {
-    name:'PHP',
-    icon: PHP
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
-    name:'shopify',
-    icon: shopify
-  }
+    name: "Node.js",
+    icon: nodejs,
+  },
 ];
 
 const experiences = [
@@ -133,39 +135,39 @@ const experiences = [
     ],
   },
   {
-    title: "PHP Full stack developer",
+    title: "Full-stack MERN Developer",
     company_name: "Yash Techs",
     icon: YashLogo,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
+      "Developing and maintaining web applications using MongoDB, Express, React, and Node.js.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "shopify Developer",
-    company_name: "Okoders",
-    icon: shopify,
+    title: "Ruby on Rails Developer",
+    company_name: "Upwork",
+    icon: NodeJS,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using Shopify + liquify.",
+      "Developing and maintaining web applications using Ruby on Rails and SQL database management.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Wordpress",
-    company_name: "Okoders",
-    icon:Wordpress,
+    title: "Sharetribe Marketplace Developer",
+    company_name: "Upwork",
+    icon: NodeJS,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
+      "Developing and maintaining marketplace applications using Sharetribe (Go & Flex) platform.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -176,35 +178,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Shahnaaz proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Great ReactJS developer, very strong understanding of the React stack. Iram was able to help us in designing a full invoicing application, and even was able to code wireframes for pages we hadn't come up with quite yet. It was great to work with her.",
+    name: "Melanie Neilan",
+    designation: "CEO",
+    company: "Dragonsurge Software",
+    image: DauchiLogo,
   },
-  {
+  { 
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Shahnaaz does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Iram has been a really good experience. Clear communication, professional approach, and always responsive throughout the process. The project requirements were understood well, which made collaboration smooth. I’d definitely recommend working with Iram again.",
+    name: "Jamie Hutchinson",
+    designation: "Senior Software Engineer",
+    company: "FreeAgent",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Iram was a pleasure to work with. She was able to understand the project requirements quickly and was able to deliver the project on time. She was also able to provide valuable feedback and suggestions for the project. I would definitely recommend working with Iram again.",
+    name: "Sangheon Jung",
+    designation: "Founder",
+    company: "Mobilife",
+    image: MobileLogo,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dauchi",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to assist in two healthcare software projects: a newer payment portal application and a legacy telehealth wellness application.",
     tags: [
       {
         name: "react",
@@ -219,49 +221,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Dauchiweb,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A fashion rental marketplace where users can lend and rent designer outfits and accessories for special occasions. The platform enables users to browse collections, book rentals, and manage listings seamlessly through an intuitive, modern interface focused on accessibility and style.",
     tags: [
       {
-        name: "Wordpress",
+        name: "Ruby on Rails",
         color: "blue-text-gradient",
       },
       {
-        name: "PHP",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: LendWeb,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Mobilife WebApp",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mobilife is an Australian user-friendly web platform that simplifies the process of renting apartments. It allows users to explore available properties, view detailed listings with images and amenities, and connect directly with owners or agents. The platform focuses on delivering a smooth and responsive experience with clean UI design, advanced search filters, and real-time availability updates — making apartment hunting faster, easier, and more reliable.",
     tags: [
       {
-        name: "Shopify",
+        name: "Sharetribe",
         color: "blue-text-gradient",
       },
       {
-        name: "liquify",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: MobileWeb,
     source_code_link: "https://github.com/",
   },
 ];

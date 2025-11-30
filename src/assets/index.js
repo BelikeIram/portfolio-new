@@ -8,6 +8,13 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import I from './I.png'
 
+import DauchiLogo from './dauchi.png'
+import MobileLogo from './mobile-app.png'
+
+import MobileWeb from './mobile-web.png'
+import LendWeb from './lendmylook-web.png'
+import Dauchiweb from './dauchi-web.png'
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -23,7 +30,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -32,8 +38,6 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import YashLogo from './yash-logo.svg'
 import NodeJS from './node.png'
-import Wordpress from "./wordpress.png";
-import PHP from './php.png'
 
 export {
   logo,
@@ -58,7 +62,6 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
   starbucks,
   tesla,
   carrent,
@@ -67,6 +70,9 @@ export {
   I,
   YashLogo,
   NodeJS,
-  Wordpress,
-  PHP
+  DauchiLogo,
+  MobileLogo,
+  MobileWeb,
+  LendWeb,
+  Dauchiweb
 };
